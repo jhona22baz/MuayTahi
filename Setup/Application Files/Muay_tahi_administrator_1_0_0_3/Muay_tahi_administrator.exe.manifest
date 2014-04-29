@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Muay_tahi_administrator.exe" version="1.0.0.3" publicKeyToken="1a9126ad60d680b1" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="muay_thai_lee_sin.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Muay_tahi_administrator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Muay_tahi_administrator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la 
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5176480">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Gj8Iq7wIAEkONfcRHvSyLXoNZ80d142WeydIM4EXzRE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="597152">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tSz++DGQ+OEmDSYhl8+Av2TtGODrKozbZL6gSQLa63A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Muay_tahi_administrator.exe" size="1610752">
+      <assemblyIdentity name="Muay_tahi_administrator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8CKLWGe49gtE4g5660HQzq7aQ1EwvQ90tv64sKHhYwk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Muay_tahi_administrator.exe.config" size="1949">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0ftPGf+cRH85klc5dljOotvpw0Y0IUpNzPVh73cAvIw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="muay_thai_lee_sin.ico" size="222954">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B9bj3e860bDPEJ1VQmiCKH4Ra2bDXvyW7WxCYihbKZc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JAR-VBx\JAR" issuerKeyHash="36b1f585a9ade43153ea7571097fdd824740cfbb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>g7O4m2UZMQ2nIr404T3DZBqASBrx5dL1V7HVf4/qhKE=</DigestValue></Reference></SignedInfo><SignatureValue>aYUmWL72NhDe1QUp5ZZOVOjVb3tT6hIzfbgCgnwrsph8GTPuTQIG/mHqGD4j+8D/E42xZCKZWiYOug5VCTY8R4FrJMBJcC9CLFH8yblPEpyb3x/XIYzREr3nyeQz1b6KuZ7EIU2S0Xe6IdW0iH5QwMEoCYMHcmXzJw9gC7VxpcU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>r+Vzi9XtSMZC48tvyaJTEyStjUzyhbgJW/8NCgEj1ZBm4DOscQRtgarRMetQciv5628N+HH2QMj68INVrxn9lPigpwHYKGO6QNfBThfuEr0RxjF0KgZyD+m+RwWEiw/x3mUGZt7tS/aw9CzutCIiDEu38/ZYyvWXTMaMYi1hcOc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a184ea8f7fd5b157f5d2e5f11a48801a64c33de134be22a70d3119659bb8b383" Description="" Url=""><as:assemblyIdentity name="Muay_tahi_administrator.exe" version="1.0.0.3" publicKeyToken="1a9126ad60d680b1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JAR-VBx\JAR</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xt1Ee+dI+e1TAusRzs7xsjoACsJWn7WT/VxdK7KeACg=</DigestValue></Reference></SignedInfo><SignatureValue>MgO3d7g+xyQRIzpBz4shMQyZsHVhjqCpoYaV0IAlwv53RdlQeDzZCbkj38bvbMOqITm7Ibr/0nJnoJyRLHrbCXvmtZmqLE53vO9WNUEzMzxs+lCKaoVNGydLMZ8T6d5E03uAcGQdDs1GhAjOtsBiV9abCgiXaoJN2RHMrhqEO7Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>r+Vzi9XtSMZC48tvyaJTEyStjUzyhbgJW/8NCgEj1ZBm4DOscQRtgarRMetQciv5628N+HH2QMj68INVrxn9lPigpwHYKGO6QNfBThfuEr0RxjF0KgZyD+m+RwWEiw/x3mUGZt7tS/aw9CzutCIiDEu38/ZYyvWXTMaMYi1hcOc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQN4f+zEBgMpdA+E/n8h+BqDANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYASgBBAFIALQBWAEIAeABcAEoAQQBSMB4XDTE0MDQyMjIwMDAzMloXDTE1MDQyMzAyMDAzMlowITEfMB0GA1UEAx4WAEoAQQBSAC0AVgBCAHgAXABKAEEAUjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAr+Vzi9XtSMZC48tvyaJTEyStjUzyhbgJW/8NCgEj1ZBm4DOscQRtgarRMetQciv5628N+HH2QMj68INVrxn9lPigpwHYKGO6QNfBThfuEr0RxjF0KgZyD+m+RwWEiw/x3mUGZt7tS/aw9CzutCIiDEu38/ZYyvWXTMaMYi1hcOcCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAVubrTCvHAwiGBhHJq5WT6OHTF1/GPWRgOT1bFBqoU3UbOFhg5bB3ROGCd3ACKrT3YB0Df54nmmR6r/QiPboQ+4iPiAdkl5cDl0zkJn/qdQL3DoWHkzsDVGGZcB73jMo6+72Amlkp4eNkF/DSQYSmCD60674wjHDReCeqtMvKZFA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
